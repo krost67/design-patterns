@@ -17,6 +17,9 @@
     <modules>
         <module>single-responsibility</module>
         <module>open-closed</module>
+        <module>liskov-substitution</module>
+        <module>interface-segregation</module>
+        <module>dependency-inversion</module>
     </modules>
 
     <properties>
@@ -24,15 +27,27 @@
         <maven.compiler.target>11</maven.compiler.target>
 
         <common.codec.version>1.15</common.codec.version>
-        <jackson.databind.version>2.13.3</jackson.databind.version>
+        <jackson.version>2.13.3</jackson.version>
         <http.client.version>4.5.13</http.client.version>
         <jsoup.version>1.15.2</jsoup.version>
         <lombok.version>1.18.24</lombok.version>
         <junit.version>4.13.2</junit.version>
     </properties>
 
-    <dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
+    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>commons-codec</groupId>
@@ -42,7 +57,12 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
-                <version>${jackson.databind.version}</version>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jsoup</groupId>
