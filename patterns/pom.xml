@@ -10,20 +10,17 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>solid</artifactId>
+    <artifactId>patterns</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>single-responsibility</module>
-        <module>open-closed</module>
-        <module>liskov-substitution</module>
-        <module>interface-segregation</module>
-        <module>dependency-inversion</module>
+        <module>creational-patterns</module>
+        <module>structural-patterns</module>
+        <module>behavioral-patterns</module>
     </modules>
 
     <properties>
-        <jackson.version>2.13.3</jackson.version>
         <lombok.version>1.18.24</lombok.version>
         <junit.version>4.13.2</junit.version>
     </properties>
@@ -43,16 +40,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.datatype</groupId>
-                <artifactId>jackson-datatype-jsr310</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>

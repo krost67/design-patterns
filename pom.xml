@@ -11,6 +11,7 @@
 
     <modules>
         <module>solid</module>
+        <module>patterns</module>
     </modules>
 
     <properties>
