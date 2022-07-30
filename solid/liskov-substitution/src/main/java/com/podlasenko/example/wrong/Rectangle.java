@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Rectangle {
 
-	private int width;
-	private int height;
+    private int width;
+    private int height;
 
-	public int computeArea() {
-		return width * height;
-	}
+    public int computeArea() {
+        return width * height;
+    }
 }

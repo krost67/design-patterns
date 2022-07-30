@@ -1,7 +1,8 @@
 package com.podlasenko.example.correct;
 
-import java.io.IOException;
 import com.podlasenko.example.model.User;
+
+import java.io.IOException;
 
 /*
  *  Handles incoming JSON requests that work on User resource/entity

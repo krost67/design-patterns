@@ -7,15 +7,13 @@ import lombok.ToString;
 @Getter
 public class UserWebDTO implements UserDTO {
 
-	private final String name;
-	
-	private final String address;
-	
-	private final String age;
+    private final String name;
+    private final String address;
+    private final String age;
 
-	public UserWebDTO(String name, String address, String age) {
-		this.name = name;
-		this.address = address;
-		this.age = age;
-	}
+    public UserWebDTO(String name, String address, String age) {
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
 }

@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Rectangle implements Shape {
-	private int width;
-	private int height;
+    private int width;
+    private int height;
 
-	public int computeArea() {
-		return width * height;
-	}
+    public int computeArea() {
+        return width * height;
+    }
 }

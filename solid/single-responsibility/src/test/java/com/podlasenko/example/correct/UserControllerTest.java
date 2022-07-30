@@ -1,6 +1,5 @@
 package com.podlasenko.example.correct;
 
-import com.podlasenko.example.wrong.WrongUserController;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ public class UserControllerTest {
 
     @Before
     public void setup() {
-         controller = new UserController();
+        controller = new UserController();
     }
 
     @Test

@@ -14,7 +14,7 @@ public class WrongUserControllerTest {
 
     @Before
     public void setup() {
-         controller = new WrongUserController();
+        controller = new WrongUserController();
     }
 
     @Test

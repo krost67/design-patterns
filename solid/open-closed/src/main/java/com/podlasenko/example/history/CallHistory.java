@@ -4,7 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDateTime;
-import java.util.*;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 public class CallHistory {
 
@@ -26,8 +30,8 @@ public class CallHistory {
     }
 
     public static void addSession(Long subscriberId,
-                                               LocalDateTime begin,
-                                               long duration) {
+                                  LocalDateTime begin,
+                                  long duration) {
         List<Call> calls;
         if (!CALLS.containsKey(subscriberId)) {
             calls = new LinkedList<>();

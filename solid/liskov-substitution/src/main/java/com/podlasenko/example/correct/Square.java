@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Square implements Shape {
-	private int side;
+    private int side;
 
-	@Override
-	public int computeArea() {
-		return side * side;
-	}
+    @Override
+    public int computeArea() {
+        return side * side;
+    }
 }
