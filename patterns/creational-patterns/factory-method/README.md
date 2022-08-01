@@ -5,4 +5,4 @@ without having to specify the exact class of the object that will be created. Th
 calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base
 class and optionally overridden by derived classes—rather than by calling a constructor.
 
-![Simple factory structure](docs/factory-method.png)
+![Factory method structure](docs/factory-method.png)
