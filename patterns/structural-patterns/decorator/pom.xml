@@ -5,19 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>patterns</artifactId>
+        <artifactId>structural-patterns</artifactId>
         <groupId>org.example</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>structural-patterns</artifactId>
+    <artifactId>decorator</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>adapter</module>
-        <module>bridge</module>
-        <module>decorator</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
