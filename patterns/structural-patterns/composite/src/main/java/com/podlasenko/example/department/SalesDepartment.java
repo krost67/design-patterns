@@ -1,9 +1,9 @@
-package com.podlasenko.example.depatrment;
+package com.podlasenko.example.department;
 
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class FinancialDepartment implements Department {
+public class SalesDepartment implements Department {
 
     private final String id;
     private final String name;

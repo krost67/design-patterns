@@ -1,6 +1,5 @@
 package com.podlasenko.example.department;
 
-import com.podlasenko.example.depatrment.Department;
 import org.junit.Before;
 import org.junit.Test;
 

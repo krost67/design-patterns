@@ -1,9 +1,9 @@
 package com.podlasenko.example;
 
-import com.podlasenko.example.depatrment.Department;
-import com.podlasenko.example.depatrment.FinancialDepartment;
-import com.podlasenko.example.depatrment.HeadDepartment;
-import com.podlasenko.example.depatrment.SalesDepartment;
+import com.podlasenko.example.department.Department;
+import com.podlasenko.example.department.FinancialDepartment;
+import com.podlasenko.example.department.HeadDepartment;
+import com.podlasenko.example.department.SalesDepartment;
 
 public class TestData {
 

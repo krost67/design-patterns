@@ -1,4 +1,4 @@
-package com.podlasenko.example.depatrment;
+package com.podlasenko.example.department;
 
 public interface Department {
 
